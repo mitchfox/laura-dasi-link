@@ -139,13 +139,13 @@ export default function Home() {
       image: WithMeLogo,
       icon: null,
     },
-    {
-      title: 'Connect with me on Instagram',
-      description: 'Follow my journey and get inspired',
-      href: 'https://withme.so/LauraDasiAerial',
-      image: null,
-      icon: InstagramIcon,
-    }
+    // {
+    //   title: 'Connect with me on Instagram',
+    //   description: 'Follow my journey and get inspired',
+    //   href: 'https://withme.so/LauraDasiAerial',
+    //   image: null,
+    //   icon: InstagramIcon,
+    // }
   ]
 
   return (
@@ -161,7 +161,7 @@ export default function Home() {
                     'linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.95) 75%, #000000 100%)',
                 }}
               />
-              <div className="mx-auto h-[40dvh] sm:mt-12 sm:h-48 sm:w-40 md:h-72 md:w-64">
+              <div className="mx-auto h-[70dvh] sm:mt-12 sm:h-48 sm:w-40 md:h-72 md:w-64">
                 <img
                   src={Laura_img.src}
                   alt="Founders"
@@ -172,7 +172,7 @@ export default function Home() {
 
             <div className="relative z-30">
               <h1
-                className={`${satisfy.className} -mt-16 mb-4 text-4xl leading-none text-white sm:mt-6 sm:text-5xl`}
+                className={`${satisfy.className} -mt-12 mb-4 text-5xl leading-none text-white sm:mt-6 sm:text-6xl`}
               >
                 Laura Dasi
               </h1>
